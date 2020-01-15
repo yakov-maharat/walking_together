@@ -1,2 +1,2 @@
-# example_project
+# My_project
 Shared walking
