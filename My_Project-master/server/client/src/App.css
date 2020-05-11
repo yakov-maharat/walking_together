@@ -1,0 +1,81 @@
+body {
+  background-image: url("https://xnet.ynet.co.il/PicServer5/2017/03/09/7637432/shutterstock_150311462_f.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+
+.App {
+text-align: center;
+
+}
+
+.A {
+  background-image: url("http://albums.timg.co.il/ForumsThumb/forumsMediumSize/170802847.png?time=0");
+  background-size: cover;
+  background-size: 8.5%;
+  height: 4rem;
+}
+.A h1{
+  font-family: "Amatic SC", cursive;
+  color: aliceblue;
+  text-align: center;
+  font-size: 4rem;
+}
+
+#root{
+  position: relative;
+  min-height: 100vh;
+}
+
+.App .AllMenu a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 18px;
+}
+.App .AllMenu a:hover{
+  color: mediumvioletred ;
+}
+
+.App .ParentsMenu a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 18px;
+}
+
+.App .ParentsMenu a:hover{
+  color: coral;
+}
+
+.App .VolunteersMenu a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  
+}
+
+.App .VolunteersMenu a:hover{
+  color: green;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-right: 0.75rem;
+  padding-left: 0.5rem; 
+}
+
+.AllMenu .container{
+  margin-left: 250px;
+}
+
+.ParentsMenu .container{
+  margin-left: 250px;
+}
+
+.VolunteersMenu .container{
+  margin-left: 300px;
+
+}
+

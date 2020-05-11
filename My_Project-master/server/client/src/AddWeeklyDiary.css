@@ -1,0 +1,36 @@
+.table {
+  margin-top: 2%;
+}
+.table th {
+  font-size: x-large;
+  font-weight: bolder;
+  color: rgb(0, 100, 0);
+}
+.table td{
+  font-weight: bolder;
+}
+button {
+  background-color: coral;
+  width: 50%;
+  height: 50px;
+  color: green;
+  font-weight: bolder;
+}
+
+h1 {
+  color: green;
+}
+
+.table input {
+  text-align: right;
+}
+.table textarea {
+  text-align: right;
+  height: 70px;
+}
+
+.table-striped {
+  opacity: 0.7;
+  color: rgb(6, 212, 6);
+  background-color: rgb(255, 207, 118);
+}

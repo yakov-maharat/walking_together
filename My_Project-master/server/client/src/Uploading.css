@@ -1,0 +1,30 @@
+.Uploading_documents {
+  margin: auto;
+  width: 40%;
+  /* height: 20%; */
+  margin-top: 3%;
+  /* padding: 1px; */
+  background-color: rgba(253, 245, 245, 0.425);
+  border: 2px black solid;
+}
+
+.FristANDLast input {
+  width: 50%;
+  /* height: 40px; */
+  text-align: right;
+  margin: 2%;
+}
+
+
+.Uploading_documents button {
+  background-color: coral;
+  margin-top: 15%;
+  width: 100%;
+
+}
+.Uploading_documents h5{
+  color: rgb(255, 68, 0);
+  margin-left: 38%;
+  text-align: center;
+  margin-top: 2%;
+}

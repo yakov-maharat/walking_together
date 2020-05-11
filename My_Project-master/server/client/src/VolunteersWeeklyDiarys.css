@@ -1,0 +1,16 @@
+.weeklydiary{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.weeklydiary textarea{
+    height: 23px;
+    text-align: right;
+}
+
+.weeklydiary button{
+    width: 7%;
+}
+.weeklydiary tr:hover{
+    color: coral;
+}

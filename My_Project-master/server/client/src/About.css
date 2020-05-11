@@ -1,0 +1,15 @@
+.About p {
+    font-weight: bold;
+    font-size: x-large;
+    color: green;
+}
+.About{
+    background-color: gainsboro;
+    margin: 70px;
+    /* margin-bottom: 50px; */
+    opacity: 0.80;
+}
+.About h1{
+    color: coral;
+    font-size: 80px;
+}

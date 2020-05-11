@@ -1,0 +1,35 @@
+.childcard{
+text-align: center;
+width: 18rem;
+margin-left: auto;
+margin-right: auto ;
+margin-top: 30px;
+margin: 20px;
+display: inline-block;
+}
+
+
+
+.childcard  h2 {
+    color: coral ;
+}
+
+.childcard button{
+    margin-top: 5px;
+    background-color: coral;
+}
+.bg-light{
+    opacity: 0.77;
+    height: 24rem;
+    /* background-color: bisque; */
+}
+.text-muted {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+
+}
+.card-text{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
