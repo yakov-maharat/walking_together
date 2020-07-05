@@ -2,6 +2,7 @@ console.log("app is loading");
 const express = require("express");
 const app = express();
 const RouteHelper = require('./RouteHelper');
+const utis = require ('./production_utils'); 
 
 const multer  = require('multer');
 const uploadDirectory = 'uploads/';
@@ -81,6 +82,7 @@ app.get("/volunteer_weekly_diary/:parentId", (req, res) => {
 });
 
 
+utis.handleProduction(express,app);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

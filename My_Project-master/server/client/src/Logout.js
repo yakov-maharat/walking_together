@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 
-const Logout = props => {
-    props.setrole("");
-    return (
-        <Redirect to='/'/>
-    );
-};
+class Logout extends Component {
+    render() {
+        return (
+            <div><Redirect to='/'/>
+                
+            </div>
+        );
+    }
+}
 
 export default Logout;
