@@ -36,7 +36,7 @@ class VolunteersLogin extends Component {
             this.loginvolunteers();
             console.log('enter was clicked')
         }
-    }
+    } 
 
     render() {
         const disabled = !this.state.email || !this.state.password;
