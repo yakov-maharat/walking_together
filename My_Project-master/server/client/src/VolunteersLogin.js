@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Redirect } from 'react-router-dom';
 
 class VolunteersLogin extends Component {
-    state = { email: '', password: '', redirectToHome: false, isError: false , role: "volunteer" };
+    state = { email: '', password: '', redirectToHome: false, isError: false, role: "volunteer" };
 
     loginvolunteers = () => {
         this.setState({ isError: false });
@@ -36,7 +36,7 @@ class VolunteersLogin extends Component {
             this.loginvolunteers();
             console.log('enter was clicked')
         }
-      }
+    }
 
     render() {
         const disabled = !this.state.email || !this.state.password;
@@ -52,23 +52,23 @@ class VolunteersLogin extends Component {
                     <img src="./login.png" alt="" /><br></br>
                     <h6>התחברות מתנדבים</h6>
 
-                <input onKeyPress={this.keyPressed} 
-                    onChange={(event) => {
-                    this.setState({ email: event.target.value })
-                }}  type="UserName" placeholder='שם משתמש' ></input><br />
+                    <input onKeyPress={this.keyPressed}
+                        onChange={(event) => {
+                            this.setState({ email: event.target.value })
+                        }} type="UserName" placeholder='שם משתמש' ></input><br />
 
-                <input 
-                    onKeyPress={this.keyPressed} 
-                    onChange={(event) => {
-                    this.setState({ password: event.target.value })
-                }}  type="password" placeholder="סיסמא" ></input><br />
+                    <input
+                        onKeyPress={this.keyPressed}
+                        onChange={(event) => {
+                            this.setState({ password: event.target.value })
+                        }} type="password" placeholder="סיסמא" ></input><br />
 
-                {this.state.isError ? <p style={{ color: 'red' }}>Login error</p> : ""}
+                    {this.state.isError ? <p style={{ color: 'red' }}>Login error</p> : ""}
 
-                <button disabled={disabled} onClick={() =>{
-                    this.loginvolunteers();                    
-                }} type="submit"> התחברות </button>
-            </div>
+                    <button disabled={disabled} onClick={() => {
+                        this.loginvolunteers();
+                    }} type="submit"> התחברות </button>
+                </div>
             </div>
         );
     }
