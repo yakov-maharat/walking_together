@@ -4,8 +4,8 @@ import { Redirect } from 'react-router-dom';
 class Logout extends Component {
     render() {
         return (
-            <div><Redirect to='/'/>
-                
+            <div>
+                <Redirect to='/'/>  
             </div>
         );
     }

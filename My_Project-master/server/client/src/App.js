@@ -125,7 +125,7 @@ class App extends Component {
             <Route exact path="/Volunteers/Login" render={() => <VolunteersLogin setrole={this.setrole} setVolunteer={this.setVolunteer} />} />
             <Route exact path="/Volunteers/ChildrensCards" render={() => <ChildrensCards role={this.state.role} setchildrenList={this.setchildrenList} childrenList={this.state.childrenList} />} />
             <Route exact path="/Volunteers/Register/Uploading" render={() => <Uploading role={this.state.role} setrole={this.setrole} setUploading={this.setUploading} setVolunteer={this.setVolunteer} volunteer={this.state.volunteer}/>} />
-            <Route exact path='/Logout' render={() => <Logout  setrole={this.setrole} />} setParent={this.setParent} parent={this.state.parent} setVolunteer={this.setVolunteer}/>
+            <Route exact path="/Logout" render={() => <Logout  setrole={this.setrole} setParent={this.setParent} parent={this.state.parent} setVolunteer={this.setVolunteer} />} />
             <Route exact path="/*" component={NOtFoundPage} />
 
           </Switch>
