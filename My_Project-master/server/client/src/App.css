@@ -1,13 +1,14 @@
 body {
-  background-image: url("https://xnet.ynet.co.il/PicServer5/2017/03/09/7637432/shutterstock_150311462_f.jpg");
+
+  background: url("../src/Children.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 100%;
+
 }
 
 .App {
-text-align: center;
-
+  text-align: center;
+  
 }
 
 .A {
@@ -15,15 +16,15 @@ text-align: center;
   background-size: cover;
   background-size: 8.5%;
   height: 4rem;
+  width: 100rem;
 }
-.A h1{
+.A h1 {
   font-family: "Amatic SC", cursive;
   color: aliceblue;
   text-align: center;
-  font-size: 4rem;
 }
 
-#root{
+#root {
   position: relative;
   min-height: 100vh;
 }
@@ -32,10 +33,10 @@ text-align: center;
   text-decoration: none;
   color: white;
   text-align: center;
-  padding: 18px;
+  padding: 2rem;
 }
-.App .AllMenu a:hover{
-  color: mediumvioletred ;
+.App .AllMenu a:hover {
+  color: rgb(199, 194, 197);
 }
 
 .App .ParentsMenu a {
@@ -45,7 +46,7 @@ text-align: center;
   padding: 18px;
 }
 
-.App .ParentsMenu a:hover{
+.App .ParentsMenu a:hover {
   color: coral;
 }
 
@@ -54,28 +55,31 @@ text-align: center;
   color: white;
   text-align: center;
   padding: 18px;
-  
 }
 
-.App .VolunteersMenu a:hover{
+.App .VolunteersMenu a:hover {
   color: green;
 }
 
 .navbar-expand .navbar-nav .nav-link {
-  padding-right: 0.75rem;
-  padding-left: 0.5rem; 
+  /* padding-right: 0.75rem;
+  padding-left: 0.5rem; */
+  position: fixed;
+}
+.AllMenu {
+  background-color: rgb(78, 76, 76);
 }
 
-.AllMenu .container{
+.AllMenu.container {
+  margin-left: 15rem;
+
+}
+
+/* .ParentsMenu .container {
   margin-left: 250px;
-}
+} */
 
-.ParentsMenu .container{
-  margin-left: 250px;
-}
-
-.VolunteersMenu .container{
+.VolunteersMenu .container {
   margin-left: 300px;
-
 }
 

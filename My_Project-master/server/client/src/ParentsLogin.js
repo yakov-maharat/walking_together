@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import "./Login.css"
 import axios from 'axios';
 import { Redirect } from 'react-router-dom';
+import { BsFillPeopleFill } from "react-icons/bs";
+
 
 
 
@@ -50,8 +52,8 @@ class ParentsLogin extends Component {
         return (
 
             <div className="Login">
-                <img src="./login.png" alt="" /><br></br>
                 <h6>התחברות הורים</h6>
+                <BsFillPeopleFill style={{ fontSize: "4rem" }}/>
 
                 <input
                     onKeyPress={this.keyPressed}

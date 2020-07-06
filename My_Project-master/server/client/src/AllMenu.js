@@ -8,7 +8,7 @@ class AllMenu extends Component {
     render() {
         return (
             <div className="AllMenu" >
-                < Navbar bg="dark" variant="dark">
+                < Navbar >
                     <Container  >
                         <Nav  >
                         <Link to="/Volunteers/Login">התחברות מתנדבים</Link>

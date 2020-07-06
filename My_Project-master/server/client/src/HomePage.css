@@ -9,35 +9,37 @@
   background: rgba(212, 200, 200, 0.589);
   border: rgba(17, 9, 9, 0.589) solid 1px;
   color: black;
-  border-radius: 75%;
-  padding: 50px;
-  max-width: 350px;
-  left: 40%;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  border-radius: 22rem;
+  padding: 4.1rem;
+  max-width: 22.4rem;
+  left: 35rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .HomePage1 h3{
   font-weight: bold;
 }
-.HomePage2 h2{
-  text-decoration: underline;
-  font-weight: bold;
-}
-.HomePage2{
-  text-align: right;
-  margin-right: 40px;
-  margin-top: 50px;
-}
-.HomePage2 h1{
-  text-decoration: underline;
+.HomePage2 h3{
+  /* text-decoration: underline; */
   font-weight: bold;
   color: black;
+
+}
+.HomePage2{
+  text-align: center;
+}
+.HomePage2 h2{
+  text-decoration: underline;
+  /* font-weight: bold; */
 }
 .HomePage2 p{
   font-size: x-large;
   font-weight: bolder;
   font-family: cursive;
   color: rgb(0, 0, 0);
+  font-family: fantasy;
+
 
 }
 /* .HomePage2 {

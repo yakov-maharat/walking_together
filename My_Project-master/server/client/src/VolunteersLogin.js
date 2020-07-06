@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import "./Login.css"
 import axios from 'axios';
 import { Redirect } from 'react-router-dom';
+import { BsFillPeopleFill } from "react-icons/bs";
+
 
 class VolunteersLogin extends Component {
     state = { email: '', password: '', redirectToHome: false, isError: false, role: "volunteer" };
@@ -49,9 +51,8 @@ class VolunteersLogin extends Component {
         return (
             <div>
                 <div className="Login">
-                    <img src="./login.png" alt="" /><br></br>
                     <h6>התחברות מתנדבים</h6>
-
+                    <BsFillPeopleFill style={{ fontSize: "4rem" }}/>
                     <input onKeyPress={this.keyPressed}
                         onChange={(event) => {
                             this.setState({ email: event.target.value })

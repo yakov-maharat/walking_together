@@ -79,8 +79,10 @@ class App extends Component {
   setvolunteerWeeklyDiaryList = volunteerWeeklyDiaryList => {
     this.setState({ volunteerWeeklyDiaryList: volunteerWeeklyDiaryList })
   }
+  
 
   render() {
+    
 
     let menu;
     switch (this.state.role) {
@@ -97,9 +99,11 @@ class App extends Component {
     }
 
     return (
+      
       <BrowserRouter>
 
         <div className="App">
+
         <div className='A'><h1>הליכה משותפת</h1></div>
 
           {menu}
@@ -131,8 +135,6 @@ class App extends Component {
           </Switch>
 
         </div>
-        {/* <div className="B"></div> */}
-        
       </BrowserRouter>
     );
   }
