@@ -1,3 +1,6 @@
+*{
+  background: 100%;
+}
 body {
 
   background: url("../src/Children.jpg") ;
@@ -15,7 +18,7 @@ body {
   background-image: url("http://albums.timg.co.il/ForumsThumb/forumsMediumSize/170802847.png?time=0");
   background-size: cover;
   background-size: 8.5%;
-  height: 4rem;
+  height: 3rem;
   width: 100rem;
 }
 .A h1 {
@@ -34,6 +37,7 @@ body {
   color: white;
   text-align: center;
   padding: 2rem;
+  
 }
 .App .AllMenu a:hover {
   color: rgb(199, 194, 197);
@@ -43,11 +47,12 @@ body {
   text-decoration: none;
   color: white;
   text-align: center;
-  padding: 18px;
+  padding: 2rem;
 }
 
 .App .ParentsMenu a:hover {
-  color: coral;
+  color: rgb(199, 194, 197);
+
 }
 
 .App .VolunteersMenu a {
@@ -62,24 +67,16 @@ body {
 }
 
 .navbar-expand .navbar-nav .nav-link {
-  /* padding-right: 0.75rem;
-  padding-left: 0.5rem; */
   position: fixed;
+  /* height: 1rem; */
 }
-.AllMenu {
-  background-color: rgb(78, 76, 76);
-}
+
 
 .AllMenu.container {
   margin-left: 15rem;
 
 }
 
-/* .ParentsMenu .container {
-  margin-left: 250px;
-} */
-
 .VolunteersMenu .container {
   margin-left: 300px;
 }
-

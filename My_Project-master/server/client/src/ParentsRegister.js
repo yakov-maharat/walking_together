@@ -7,7 +7,7 @@ class ParentsRegister extends Component {
 
     state = {
         FirstName: '', LastName: '', ID: '', email: '',
-        password: '', ConfirmPassword: '', Child: "", redirectToHome: false, isError: false
+        password: '', ConfirmPassword: '', Child: "", redirectToHome: false , isError: false
     }
 
     registerparents = () => {

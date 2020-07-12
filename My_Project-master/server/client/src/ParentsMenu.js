@@ -8,7 +8,7 @@ class ParentsMenu extends Component {
     render() {
         return (
             <div className="ParentsMenu">
-                < Navbar bg="dark" variant="dark">
+                < Navbar bg="dark" variant="dark" style={{height : "3rem"}}>
                     <Container>
                         <Nav>
                             <Link to="/Logout">התנתקות</Link>
