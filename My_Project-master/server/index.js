@@ -84,7 +84,7 @@ app.get("/volunteer_weekly_diary/:parentId", (req, res) => {
 
 utis.handleProduction(express,app);
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
 });
