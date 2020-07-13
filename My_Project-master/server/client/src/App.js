@@ -132,8 +132,13 @@ class App extends Component {
             <Route exact path="/Volunteers/Register" render={() => <VolunteersRegister setrole={this.setrole} setVolunteer={this.setVolunteer} volunteer={this.volunteer} />} />
             <Route exact path="/Volunteers/Login" render={() => <VolunteersLogin setrole={this.setrole} setVolunteer={this.setVolunteer} />} />
             <Route exact path="/Volunteers/ChildrensCards" render={() => <ChildrensCards role={this.state.role} setchildrenList={this.setchildrenList} childrenList={this.state.childrenList} />} />
+<<<<<<< HEAD
             <Route exact path="/Volunteers/Register/Uploading" render={() => <Uploading role={this.state.role} setrole={this.setrole} setUploading={this.setUploading} setVolunteer={this.setVolunteer} volunteer={this.state.volunteer} />} />
             <Route exact path="/Logout" render={() => <Logout setrole={this.setrole} setParent={this.setParent} parent={this.state.parent} setVolunteer={this.setVolunteer} />} />
+=======
+            <Route exact path="/Volunteers/Register/Uploading" render={() => <Uploading role={this.state.role} setrole={this.setrole} setUploading={this.setUploading} setVolunteer={this.setVolunteer} volunteer={this.state.volunteer}/>} />
+            <Route exact path="/Logout" render={() => <Logout  setrole={this.setrole} setParent={this.setParent} parent={this.state.parent} setVolunteer={this.setVolunteer} volunteer={this.state.volunteer} />} />
+>>>>>>> fa54b1cf6843a276d8df4e25a1a2ef4a3e6bbece
             <Route exact path="/*" component={NOtFoundPage} />
 
           </Switch>
