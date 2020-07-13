@@ -4,13 +4,15 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import "./App.css";
 
 
+
+
 class AllMenu extends Component {
     render() {
         return (
             <div className="AllMenu" >
-                < Navbar bg="dark" variant="dark" style={{height : "3rem" }} >
+                < Navbar bg="dark" variant="dark" style={{height : "3rem"  }} >
                     <Container >
-                        <Nav>
+                        <Nav style={{marginLeft : '3rem'}} >
                             <Link to="/Volunteers/Login">התחברות מתנדבים</Link>
                             <Link to="/Volunteers/Register">רישום מתנדבים</Link>
                             <Link to="/Parents/Login">התחברות הורים</Link>

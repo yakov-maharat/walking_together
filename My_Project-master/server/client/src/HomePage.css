@@ -21,17 +21,17 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   font-weight: bold;
 }
 .HomePage2 h3{
-  /* text-decoration: underline; */
   font-weight: bold;
   color: black;
 
 }
 .HomePage2{
   text-align: center;
+margin-bottom: 4rem;
+
 }
 .HomePage2 h2{
-  text-decoration: underline;
-  /* font-weight: bold; */
+  text-decoration: underline
 }
 .HomePage2 p{
   font-size: x-large;
@@ -39,25 +39,4 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   font-family: cursive;
   color: rgb(0, 0, 0);
   font-family: fantasy;
-
-
 }
-/* .HomePage2 {
-  background: rgba(212, 200, 200, 0.589);
-  border: rgba(17, 9, 9, 0.589) solid 1px;
-  width: 20px;
-  padding: 25px;
-  border-radius: 50%;
-  position: absolute;
-  right: 36%;
-} */
-/* .HomePage3 {
-  background: rgba(212, 200, 200, 0.589);
-  border: rgba(17, 9, 9, 0.589) solid 1px;
-  width: 10px;
-  padding: 15px;
-  border-radius: 50%;
-  position: absolute;
-  right: 33%;
-  bottom: 33%;
-} */

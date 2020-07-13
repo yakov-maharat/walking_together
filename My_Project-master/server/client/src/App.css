@@ -1,9 +1,7 @@
-*{
-  background: 100%;
-}
+
 body {
 
-  background: url("../src/Children.jpg") ;
+  background: url("../src/Child.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -68,7 +66,7 @@ body {
 
 .navbar-expand .navbar-nav .nav-link {
   position: fixed;
-  /* height: 1rem; */
+
 }
 
 

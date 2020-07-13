@@ -25,6 +25,7 @@
     "express": "^4.16.4",
     "mongodb": "^3.5.1",
     "multer": "^1.4.2",
+    "preval.macro": "^5.0.0",
     "react-router-dom": "^5.1.2"
   }
 }

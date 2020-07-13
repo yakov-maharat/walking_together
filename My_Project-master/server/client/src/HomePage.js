@@ -15,10 +15,7 @@ class HomePage extends Component {
                     <p>.בעלי קשרים חברתיים נרחבים(!)</p>
                     <p>.מתמודדים היטב עם בעיות(!)</p>
                 </div>
-                
-                <div className="HomePage3">
-                    
-                </div>
+        
             </div>
         );
     }
