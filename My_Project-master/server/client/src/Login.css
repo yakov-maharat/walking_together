@@ -2,25 +2,24 @@
   margin: auto;
   background-color: rgba(17, 9, 9, 0.233);
   width: 22%;
-  height: 26rem;
-  margin-top: 4rem;
+  /* height: 30%; */
+  /* margin-top: 4rem; */
 
 }
 
 .Login h6{
-  margin-top: 4rem;
+  margin-top: 22%;
 font-size: 22px;
 color: rgb(42, 42, 255);
 }
 
 .Login input {
   background-color: transparent;
-  margin: 10px;
-  border-radius: 8px;
+  margin: 10%;
   text-align: right;
   width: 86%;
-  height: 40px;
-  margin-top: 50px;
+  padding: 2%;
+  margin-top: 14%;
   border: none;
   border-bottom: black solid 1px;
   font-weight: bolder;
@@ -28,11 +27,11 @@ color: rgb(42, 42, 255);
 .Login button{
   background-color: rgb(42, 42, 255);
   color: white;
-  margin-top: 4rem;
-  border-radius: 8px;
+  margin-top: 10%;
+  border-radius: 7px;
   border: black solid 1px;
   width: 60%;
-  height: 2rem;
+  height: 4%;
  
 }
 

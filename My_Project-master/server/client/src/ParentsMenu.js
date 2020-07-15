@@ -8,10 +8,10 @@ class ParentsMenu extends Component {
     render() {
         return (
             <div className="ParentsMenu">
-                < Navbar bg="dark" variant="dark" style={{height : "3rem" }}>
+                < Navbar bg="dark" variant="dark">
                     <Container>
-                        <Nav style={{marginLeft : '3rem'}} >
-                            
+                        <Nav  style={{ marginLeft: "8%"}}>
+
                             <Link to="/Logout">התנתקות</Link>
                             <Link to="/Parents/AddWeeklyDiary"> הוספת יומן שבועי</Link >
                             <Link to="/Parents/ChildCard">כרטיס ילד</Link >

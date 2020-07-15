@@ -9,7 +9,7 @@ class VolunteersMenu extends Component {
             <div className="VolunteersMenu">
                 < Navbar bg="dark" variant="dark">
                     <Container>
-                        <Nav>
+                        <Nav style={{ marginLeft: "12%"}}>
                             <Link to="/Logout">התנתקות</Link>
                             <Link to="/Volunteers/WeeklyDiarys">שעות פנויות ילדים</Link>
                             <Link to="/Volunteers/ChildrensCards">כרטיסי ילדים</Link>

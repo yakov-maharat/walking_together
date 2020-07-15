@@ -76,7 +76,7 @@ class ParentsRegister extends Component {
                             onChange={(event) => {
                                 this.setState({ LastName: event.target.value })
                             }} type='name' placeholder='שם משפחה'></input><br />
-                    </div><br></br>
+                    </div>
 
                     <input
                         onKeyPress={this.keyPressed}
