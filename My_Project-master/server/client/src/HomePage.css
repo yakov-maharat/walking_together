@@ -1,5 +1,7 @@
 .HomePage {
   margin: auto;
+  padding: 0;
+  min-height: 820px;
 }
 .HomePage1 {
   text-align: center;
@@ -13,7 +15,7 @@
   padding: 4.4%;
   max-width: 22.4%;
   left: 38%;
-  margin-top: 4%;
+  margin-top: 3%;
   margin-bottom: 4%;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -39,9 +41,6 @@ margin-bottom: 4%;
   font-family: cursive;
   color: rgb(0, 0, 0);
   font-family: fantasy;
-}
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+
+  
 }

@@ -49,7 +49,7 @@ class VolunteersLogin extends Component {
         }
 
         return (
-            <div>
+            <div className="VolunteersLogin">
                 <div className="Login">
                     <h6>התחברות מתנדבים</h6>
                     <BsFillPeopleFill style={{ fontSize: "4rem" }}/>

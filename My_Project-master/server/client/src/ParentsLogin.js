@@ -50,29 +50,30 @@ class ParentsLogin extends Component {
         }
 
         return (
+            <div className="ParentsLogin">
+                <div className="Login">
+                    <h6>התחברות הורים</h6>
+                    <BsFillPeopleFill style={{ fontSize: "4rem" }} />
 
-            <div className="Login">
-                <h6>התחברות הורים</h6>
-                <BsFillPeopleFill style={{ fontSize: "4rem" }}/>
+                    <input
+                        onKeyPress={this.keyPressed}
+                        onChange={(event) => {
+                            this.setState({ email: event.target.value })
+                        }} type='email' placeholder='אימייל'></input><br />
 
-                <input
-                    onKeyPress={this.keyPressed}
-                    onChange={(event) => {
-                        this.setState({ email: event.target.value })
-                    }} type='email' placeholder='אימייל'></input><br />
+                    <input
+                        onKeyPress={this.keyPressed}
+                        onChange={(event) => {
+                            this.setState({ password: event.target.value })
+                        }} type="password" placeholder="סיסמא" ></input><br />
 
-                <input
-                    onKeyPress={this.keyPressed}
-                    onChange={(event) => {
-                        this.setState({ password: event.target.value })
-                    }} type="password" placeholder="סיסמא" ></input><br />
-
-                {this.state.isError ? <h4 style={{ color: 'red' }}> קיימת בעיה בהתחברות,תבדוק את המייל ואת הסיסמא</h4> : ""}
+                    {this.state.isError ? <h4 style={{ color: 'red' }}> קיימת בעיה בהתחברות,תבדוק את המייל ואת הסיסמא</h4> : ""}
 
 
-                <button disabled={disabled} onClick={() => {
-                    this.loginparents();
-                }} type="submit"> התחברות </button>
+                    <button disabled={disabled} onClick={() => {
+                        this.loginparents();
+                    }} type="submit"> התחברות </button>
+                </div>
             </div>
         );
     }

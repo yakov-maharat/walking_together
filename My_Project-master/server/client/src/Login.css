@@ -2,13 +2,13 @@
   margin: auto;
   background-color: rgba(17, 9, 9, 0.233);
   width: 22%;
-  /* height: 30%; */
-  /* margin-top: 4rem; */
+  
+
 
 }
 
 .Login h6{
-  margin-top: 22%;
+  margin-top: 24%;
 font-size: 22px;
 color: rgb(42, 42, 255);
 }
@@ -27,7 +27,7 @@ color: rgb(42, 42, 255);
 .Login button{
   background-color: rgb(42, 42, 255);
   color: white;
-  margin-top: 10%;
+  margin-top: 12%;
   border-radius: 7px;
   border: black solid 1px;
   width: 60%;

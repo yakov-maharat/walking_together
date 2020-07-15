@@ -10,7 +10,7 @@ class ParentsMenu extends Component {
             <div className="ParentsMenu">
                 < Navbar bg="dark" variant="dark">
                     <Container>
-                        <Nav  style={{ marginLeft: "8%"}}>
+                        <Nav  style={{ marginLeft: "12%"}}>
 
                             <Link to="/Logout">התנתקות</Link>
                             <Link to="/Parents/AddWeeklyDiary"> הוספת יומן שבועי</Link >
