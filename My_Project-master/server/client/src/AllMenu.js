@@ -10,9 +10,9 @@ class AllMenu extends Component {
     render() {
         return (
             <div className="AllMenu" >
-                < Navbar bg="dark" variant="dark" style={{height : "3rem"  }} >
+                < Navbar bg="dark" variant="dark"  >
                     <Container >
-                        <Nav style={{marginLeft : '3rem'}} >
+                        <Nav style={{ marginLeft: "8%"}} >
                             <Link to="/Volunteers/Login">התחברות מתנדבים</Link>
                             <Link to="/Volunteers/Register">רישום מתנדבים</Link>
                             <Link to="/Parents/Login">התחברות הורים</Link>

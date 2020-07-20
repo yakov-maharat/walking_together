@@ -1,12 +1,12 @@
 .AddChild {
   text-align: center;
   margin-left: 30%;
-  margin-top: 3%;
+  margin-top: 6%;
   width: 40%;
   background-color: rgba(255, 255, 255, 0.651);
-  margin-top: 100px;
-  border-radius: 6px;
-  margin-bottom: 4rem;
+  border-radius: 6%;
+  margin-bottom: 4%;
+  min-width: 40rem;
 }
 .AddChild h3 {
   margin-top: 2%;
@@ -15,23 +15,22 @@
 
 .AddChild1 {
   width: 70%;
-  height: 40px;
   text-align: right;
-  margin: 10px;
-  padding: 4px;
+  margin: 2%;
+  padding: 1%;
 }
 
 .AddChild2 {
   width: 70%;
-  height: 120px;
+  height: 8rem;
   text-align: center;
-  padding: 4px;
+  padding: 1%;
 }
 .AddChild button {
   background-color: green;
   color: white;
   margin-top: 3%;
   width: 70%;
-  margin-bottom: 3rem;
+  margin-bottom: 3%;
   padding: 1%;
 }

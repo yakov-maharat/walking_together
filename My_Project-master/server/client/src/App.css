@@ -1,23 +1,20 @@
-
 body {
-
-  background: url("../src/Child.jpg") ;
+  background: url("../src/Child.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 70rem;
+  /* background-size: 100% ; */
 
 }
-
 .App {
   text-align: center;
-  
 }
 
 .A {
   background-image: url("http://albums.timg.co.il/ForumsThumb/forumsMediumSize/170802847.png?time=0");
   background-size: cover;
-  background-size: 8.5%;
+  background-size: 7.5%;
   height: 3rem;
-  width: 100rem;
 }
 .A h1 {
   font-family: "Amatic SC", cursive;
@@ -27,16 +24,22 @@ body {
 
 #root {
   position: relative;
-  min-height: 100vh;
+  /* max-width: 375px; */
+  min-height: 7px;
+  min-width: 7px;
+
 }
 
 .App .AllMenu a {
   text-decoration: none;
   color: white;
-  text-align: center;
-  padding: 2rem;
-  
+  padding: 1.5rem;
 }
+.App .AllMenu .navbar {
+  height: 3.5rem;
+  width: 100%, 50rem;
+}
+
 .App .AllMenu a:hover {
   color: rgb(199, 194, 197);
 }
@@ -45,36 +48,39 @@ body {
   text-decoration: none;
   color: white;
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
+}
+.App .ParentsMenu .navbar {
+  height: 3.5rem;
 }
 
 .App .ParentsMenu a:hover {
   color: rgb(199, 194, 197);
-
 }
 
 .App .VolunteersMenu a {
   text-decoration: none;
   color: white;
-  text-align: center;
-  padding: 18px;
+  padding: 1.5rem;
+}
+
+.App .VolunteersMenu .navbar {
+  height: 3.5rem;
 }
 
 .App .VolunteersMenu a:hover {
   color: green;
 }
-
-.navbar-expand .navbar-nav .nav-link {
-  position: fixed;
-
+.ParentsLogin{
+  margin: auto;
+  padding: 0;
+  min-height: 38rem;
+  min-width: 20rem;
+  
 }
-
-
-.AllMenu.container {
-  margin-left: 15rem;
-
-}
-
-.VolunteersMenu .container {
-  margin-left: 300px;
+.VolunteersLogin{
+  margin: auto;
+  padding: 0;
+  min-height: 38rem;
+  min-width: 25rem;
 }
