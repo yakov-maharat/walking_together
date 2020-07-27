@@ -27,7 +27,7 @@ class VolunteersWeeklyDiarys extends Component {
         }
     }
     showvolunteersWeeklyDiary = () => {
-        axios.get("/weekly_diary/" + this.props.childrenList[0]._id)//// להוסיף childId
+        axios.get("/weekly_diary/" + this.props.parentId)//// להוסיף childId
             .then((res) => {
 
                 if (res.status === 200) {
