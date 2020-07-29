@@ -53,7 +53,7 @@ class ParentsLogin extends Component {
             <div className="ParentsLogin">
                 <div className="Login">
                     <h6>התחברות הורים</h6>
-                    <BsFillPeopleFill style={{ fontSize: "4rem" }} />
+                    <BsFillPeopleFill className="Icon" />
 
                     <input
                         onKeyPress={this.keyPressed}

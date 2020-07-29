@@ -2,8 +2,6 @@
   margin: auto;
   background-color: rgba(17, 9, 9, 0.233);
   width: 22%;
-  
-
 
 }
 
@@ -11,6 +9,9 @@
   margin-top: 24%;
 font-size: 22px;
 color: rgb(42, 42, 255);
+}
+.Icon{
+  font-size: 4rem;
 }
 
 .Login input {
@@ -39,3 +40,32 @@ color: rgb(42, 42, 255);
   color: white;
 }
 
+@media only screen and (max-width: 1520px) {
+  .ParentsLogin {
+    height: 2300px;
+  }
+  .VolunteersLogin {
+    height: 2200px;
+  }
+  .Login{
+    margin-top: 15%;
+    height: 85%;
+    width: 70%;
+  }
+  .Login h6{
+  font-size: 6rem;
+  color: rgb(42, 42, 255);
+  }
+.Icon{
+  font-size: 12rem;
+  margin-top: 6%;
+}
+.Login input{
+  font-size: 4rem;
+}
+.Login button{
+  font-size: 4rem;
+  margin-top: 45%;
+  height: 8rem;
+}
+}

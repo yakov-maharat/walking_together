@@ -1,11 +1,11 @@
 body {
-  background: url("../src/Child.jpg");
+  margin: auto;
+  background: url("../src/ילדים\ רצים\ בשדה\ סתווי_1.jpg");
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 70rem;
-  /* background-size: 100% ; */
-
 }
+
 .App {
   text-align: center;
 }
@@ -24,10 +24,6 @@ body {
 
 #root {
   position: relative;
-  /* max-width: 375px; */
-  min-height: 7px;
-  min-width: 7px;
-
 }
 
 .App .AllMenu a {
@@ -71,16 +67,62 @@ body {
 .App .VolunteersMenu a:hover {
   color: green;
 }
-.ParentsLogin{
+.ParentsLogin {
   margin: auto;
   padding: 0;
   min-height: 38rem;
   min-width: 20rem;
-  
 }
-.VolunteersLogin{
+.VolunteersLogin {
   margin: auto;
   padding: 0;
   min-height: 38rem;
   min-width: 25rem;
+}
+
+@media only screen and (max-width: 1520px) {
+  .A {
+    background-size: 15.5%;
+    height: 80px;
+  }
+  .App .AllMenu a {
+    font-size: 21px;
+    padding: 1.1rem;
+  
+}
+  
+  .App .AllMenu .navbar {
+    height: 6.5rem;
+  }
+  .App .AllMenu a:hover {
+    color: rgb(199, 194, 197);
+  }
+  .App .ParentsMenu a {
+    font-size: 20px;
+    padding: 1.5rem;
+ 
+  }
+  .App .ParentsMenu .navbar {
+    height: 6.5rem;
+    width: 100%;
+  }
+  
+  .App .ParentsMenu a:hover {
+    color: rgb(199, 194, 197);
+  }
+  
+  .App .VolunteersMenu a {
+    font-size: 25px;
+    padding: 3.5rem;
+  }
+  
+  .App .VolunteersMenu .navbar {
+    height: 6.5rem;
+  }
+  
+  .App .VolunteersMenu a:hover {
+    color: green;
+  }
+  
+  
 }

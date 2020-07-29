@@ -1,7 +1,7 @@
 .HomePage {
   margin: auto;
   padding: 0;
-  min-height: 820px;
+  /* height: 820px; */
 }
 .HomePage1 {
   text-align: center;
@@ -13,34 +13,72 @@
   color: black;
   border-radius: 50%;
   padding: 4.4%;
-  max-width: 22.4%;
+  width: 22.4%;
   left: 38%;
   margin-top: 3%;
   margin-bottom: 4%;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.HomePage1 h3{
+.HomePage1 h3 {
   font-weight: bold;
 }
-.HomePage2 h3{
+
+.HomePage2 {
+  text-align: center;
+  margin-bottom: 4%;
+}
+.HomePage2 h3 {
   font-weight: bold;
   color: black;
+}
 
+.HomePage2 h2 {
+  text-decoration: underline;
 }
-.HomePage2{
-  text-align: center;
-margin-bottom: 4%;
-
-}
-.HomePage2 h2{
-  text-decoration: underline
-}
-.HomePage2 p{
+.HomePage2 p {
   font-size: x-large;
   font-weight: bolder;
   font-family: cursive;
   color: rgb(0, 0, 0);
   font-family: fantasy;
+}
+@media only screen and (max-width: 1520px) {
 
-  
+  .HomePage {
+    height: 2120px;
+    margin-top: 25%;
+  }
+  .HomePage1 {
+    padding: 12.4%;
+    width: 48%;
+    left: 28%;
+    margin-top: 0;
+    margin-bottom: 15%;
+  }
+  .HomePage1 h4 {
+    font-size: 40px;
+    color: white;
+  }
+  .HomePage1 h3 {
+    margin-top: 10%;
+    font-size: 50px;
+  }
+
+  .HomePage2 h2 {
+    font-size: 50px;
+    color: white;
+
+  }
+  .HomePage2 h3 {
+    color: white;
+    font-size: 55px;
+    margin-top: 6%;
+  }
+  .HomePage2 p {
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+  }
 }

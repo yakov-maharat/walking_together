@@ -52,7 +52,7 @@ class VolunteersLogin extends Component {
             <div className="VolunteersLogin">
                 <div className="Login">
                     <h6>התחברות מתנדבים</h6>
-                    <BsFillPeopleFill style={{ fontSize: "4rem" }}/>
+                    <BsFillPeopleFill  className="Icon"/>
                     <input onKeyPress={this.keyPressed}
                         onChange={(event) => {
                             this.setState({ email: event.target.value })

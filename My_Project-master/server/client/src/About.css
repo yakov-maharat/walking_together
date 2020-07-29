@@ -1,12 +1,13 @@
+
 .About {
-  width: 58%;
-  height: 55%;
+  width: 50%;
   border-radius: 18%;
-  margin-left: 20%;
+  margin-left: 24%;
   background-color: rgb(255, 244, 244);
-  margin-top: 5%;
-  margin-bottom: 4%;
+  margin-top: 4%;
+  margin-bottom: 3%;
   opacity: 0.7;
+  padding: 1%;
 }
 
 .About p {
@@ -16,4 +17,21 @@
 
 .About h2 {
   font-size: 3rem;
+}
+@media only screen and (max-width: 1520px) {
+  .AboutAll{
+    height: 2280px;
+
+  }
+  .About {
+    
+    border-radius: 2%;
+    margin-top: 15%;
+    width: 56%;
+  
+  }
+  .About p {
+    font-size: 38px;
+    padding: 2%;
+  }
 }

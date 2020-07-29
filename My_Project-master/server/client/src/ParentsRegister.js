@@ -60,7 +60,7 @@ class ParentsRegister extends Component {
         }
 
         return (
-            <div>
+            <div className="RegistrationAll">
                 <h1 className="RegistrationTitel">רישום הורים</h1>
                 <div className="Registration">
 
@@ -75,7 +75,7 @@ class ParentsRegister extends Component {
                             onKeyPress={this.keyPressed}
                             onChange={(event) => {
                                 this.setState({ LastName: event.target.value })
-                            }} type='name' placeholder='שם משפחה'></input><br />
+                            }} type='name' placeholder='שם משפחה'></input>
                     </div>
 
                     <input

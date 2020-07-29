@@ -1,36 +1,28 @@
-
 .maatefer_two {
   display: flex;
   margin-bottom: 3%;
-
 }
 
 .whatsapp {
   width: 12rem;
   margin-top: 1%;
   margin-right: 90%;
-  
 }
 .whatsapp h5 {
- width: 100%;
+  width: 100%;
   font-family: "Amatic SC", cursive;
   font-size: 140%;
   margin-left: 40%;
   color: white;
-  
-
 }
-.whatsapp img{
+.whatsapp img {
   width: 15%;
   height: 15%;
   margin-left: 74%;
-  
 }
-.whatsapp img:hover{
- width: 16%;
- 
+.whatsapp img:hover {
+  width: 16%;
 }
-
 
 .contact_us_maatefet {
   width: 80%;
@@ -46,20 +38,99 @@
   margin-right: 3%;
 }
 
-.card{
+.card {
   margin-right: 5%;
 }
 
 .your_details {
   font-family: "Amatic SC", cursive;
-  font-size: 250%;
+  font-size: 160%;
   text-align: center;
   margin-left: 44%;
 }
-
 
 .buttonSend {
   width: 100%;
   background-color: rgb(165, 24, 24);
 }
+@media only screen and (max-width: 1520px) {
+  .Contact {
+    height: 2520px;
 
+  }
+  .maatefer_two{
+    display: grid;
+  }
+
+
+  .whatsapp h5 {
+    font-family: "Amatic SC", cursive;
+    font-size: 44px;
+    margin-left: 40%;
+    color: white;
+    /* margin-top: 35%; */
+
+  }
+  .whatsapp img {
+    width: 35%;
+    height: 35%;
+    margin-left: 74%;
+  }
+  .contact_us_maatefet {
+    display: flex;
+    direction: rtl;
+    margin-left:  15%;
+    padding: 3%;
+  }
+  .maatefet_form  {
+    text-align: right;
+    color: white;
+    direction: rtl;
+    margin-left: 20%;
+    margin-top: 15%;
+    font-size: 62px;
+    width: 65%;
+    height: 5px;
+    padding: 2px;
+  
+  }
+
+  .your_details {
+    font-family: "Amatic SC", cursive;
+    font-size: 110%;
+    color: white;
+    margin-left: 10%;
+  }
+  #formBasicFullName{
+    font-size: 40px;
+  }
+  #formBasicEmail{
+    font-size: 40px;
+  }
+  #formBasicPhone{
+    font-size: 40px;
+  }
+#formBasicSubject{
+  font-size: 40px;
+}
+
+  .card{
+   margin-right: 12%;
+    font-size: 38px;
+    width: 48%;
+    height: 36rem;
+    padding: 1px;
+    margin-top: 0;
+  }
+
+.card-text:last-child {
+  margin-top: 12%;
+  font-size: 30px;
+
+}
+  .buttonSend {
+    height: 70px;
+    margin-top: 6%;
+  }
+  
+}

@@ -25,7 +25,7 @@ class ChildCard extends Component {
     }
 
     showChildCard = () => {
-        axios.get("/child/"+this.props.parent._id)
+        axios.get("/child/" + this.props.parent._id)
             .then((res) => {
 
                 if (res.status === 200) {
@@ -42,7 +42,7 @@ class ChildCard extends Component {
             });
     }
 
-    function = () =>{
+    function = () => {
         this.setState({ redirectToDiary: true })
     }
 
@@ -67,14 +67,15 @@ class ChildCard extends Component {
                         <Card.Subtitle className="mb-2 text-muted">כתובת: {childcard.childAddress}</Card.Subtitle>
                         <Card.Subtitle className="mb-2 text-muted">איש קשר: {childcard.contact}</Card.Subtitle>
                         <Card.Subtitle className="mb-2 text-muted">פלא': {childcard.phone}</Card.Subtitle>
-                        <Card.Subtitle className="mb-2 text-muted">{childcard.email} :מייל</Card.Subtitle> <br/>
+                        <Card.Subtitle className="mb-2 text-muted">{childcard.email} :מייל</Card.Subtitle> <br />
                         <Card.Text>{childcard.infoOnChild}</Card.Text>
                         {/* <Card.Link href="/Parents/WeeklyDiary">יומן שבועי</Card.Link> */}
+
+                        <button onClick={() => {
+                            this.function();
+                        }}>יומן שבועי </button>
                     </Card.Body>
                 </Card>
-                <button onClick={() =>{
-                       this.function();
-                }}>יומן שבועי </button>
             </div>
         );
 

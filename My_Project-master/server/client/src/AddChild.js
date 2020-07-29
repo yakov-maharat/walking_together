@@ -79,48 +79,51 @@ class AddChild extends Component {
         }
 
         return (
-            <div className="AddChild">
-                <h3>מילוי פרטים לילדים</h3>
+            <div className="AddChildAll">
+                <div className="AddChild">
+                    <h3>מילוי פרטים לילדים</h3>
+                    <div className="AddChildInput">
+                        <input className="AddChild1"
+                            onKeyPress={this.keyPressed}
+                            onChange={(event) => {
+                                this.setState({ childName: event.target.value })
+                            }} type='name' placeholder='שם מלא של הילד'></input><br />
 
-                <input className="AddChild1"
-                    onKeyPress={this.keyPressed}
-                    onChange={(event) => {
-                        this.setState({ childName: event.target.value })
-                    }} type='name' placeholder='שם מלא של הילד'></input><br />
+                        <input className="AddChild1"
+                            onKeyPress={this.keyPressed}
+                            onChange={(event) => {
+                                this.setState({ childAddress: event.target.value })
+                            }} type='name' placeholder=' כתובת מגורים מלאה'></input><br />
 
-                <input className="AddChild1"
-                    onKeyPress={this.keyPressed}
-                    onChange={(event) => {
-                        this.setState({ childAddress: event.target.value })
-                    }} type='name' placeholder=' כתובת מגורים מלאה'></input><br />
+                        <input className="AddChild1"
+                            onKeyPress={this.keyPressed}
+                            onChange={(event) => {
+                                this.setState({ contact: event.target.value })
+                            }} type='name' placeholder=' איש קשר: שם מלא'></input><br />
 
-                <input className="AddChild1"
-                    onKeyPress={this.keyPressed}
-                    onChange={(event) => {
-                        this.setState({ contact: event.target.value })
-                    }} type='name' placeholder=' איש קשר: שם מלא'></input><br />
+                        <input className="AddChild1"
+                            onKeyPress={this.keyPressed}
+                            onChange={(event) => {
+                                this.setState({ phone: event.target.value })
+                            }} type='number' placeholder=' איש קשר: נייד'></input><br />
 
-                <input className="AddChild1"
-                    onKeyPress={this.keyPressed}
-                    onChange={(event) => {
-                        this.setState({ phone: event.target.value })
-                    }} type='name' placeholder=' איש קשר: נייד'></input><br />
+                        <input className="AddChild1"
+                            onKeyPress={this.keyPressed}
+                            onChange={(event) => {
+                                this.setState({ email: event.target.value })
+                            }} type='email' placeholder='אימייל'></input><br />
 
-                <input className="AddChild1"
-                    onKeyPress={this.keyPressed}
-                    onChange={(event) => {
-                        this.setState({ email: event.target.value })
-                    }} type='email' placeholder='אימייל'></input><br />
+                        <input className="AddChild2"
+                            onKeyPress={this.keyPressed}
+                            onChange={(event) => {
+                                this.setState({ infoOnChild: event.target.value })
+                            }} type='text' placeholder="(ספר/י על הילד/ה (כגון מין,גיל,תחביבים"></input><br />
 
-                <input className="AddChild2"
-                    onKeyPress={this.keyPressed}
-                    onChange={(event) => {
-                        this.setState({ infoOnChild: event.target.value })
-                    }} type='text' placeholder="(ספר/י על הילד/ה (כגון מין,גיל,תחביבים"></input><br />
+                        {this.state.isError ? <p style={{ color: 'red' }}>creact card error</p> : ""}
 
-                {this.state.isError ? <p style={{ color: 'red' }}>creact card error</p> : ""}
-
-                <button disabled={disabled} onClick={this.creatcard}> צור כרטיס ילד </button>
+                        <button disabled={disabled} onClick={this.creatcard}> צור כרטיס ילד </button>
+                    </div>
+                </div>
             </div>
 
         );

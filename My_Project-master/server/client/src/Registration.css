@@ -1,49 +1,75 @@
 .Registration {
-    margin: auto;
-    border-radius: 18%;
-    width: 60%;
-    margin-top: 3%;
-  }
-  .RegistrationTitel{
-    margin-top: 4%;
-    font-size: 3rem;
-    font-family:  "Amatic SC", cursive;
-    text-decoration: underline;
-    color: green;
-  }
-  
-  .FullName {
-    display: flex;
-    width: 87%;
-    margin: auto;
-    
-  }
-  
-  .Registration input {
-    margin: 10px;
-    text-align: center;
-    width: 85%;
-    height: 3rem;
-    background-color: rgba(221, 221, 221, 0.555);
-    border-radius: 1px;
-    
-   
-  }
-  
-  
-  .Registration button {
-    /* background-color: rgb(255, 145, 0); */
-    color: green;
-    width: 85%;
-    height: 50px;
-    border-radius: 4px;
-    margin-top: 35px;
-    margin-bottom: 70px;
-    border: green solid 3px;
-   
+  margin: auto;
+  border-radius: 18%;
+  width: 60%;
+  margin-top: 3%;
+}
+.RegistrationTitel {
+  margin-top: 4%;
+  font-size: 3rem;
+  font-family: "Amatic SC", cursive;
+  text-decoration: underline;
+  color: green;
+}
+
+.FullName {
+  display: flex;
+  width: 87%;
+  margin: auto;
+}
+
+.Registration input {
+  margin: 10px;
+  text-align: center;
+  width: 85%;
+  height: 3rem;
+  background-color: rgba(221, 221, 221, 0.555);
+  border-radius: 1px;
+}
+
+.Registration button {
+  color: green;
+  width: 85%;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  border: green solid 3px;
+}
+
+.Registration ::placeholder {
+  color: green;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1520px) {
+  .RegistrationAll {
+    height: 2200px;
   }
 
-  .Registration ::placeholder{
-    color: green;
-    font-weight: bold;
+  .RegistrationTitel {
+    margin-top: 25%;
+    font-size: 10rem;
   }
+
+  .FullName {
+    display: grid;
+    width: 100%;
+    margin-top: 22%;
+  }
+
+  .Registration input {
+    width: 60rem;
+    padding: 4%;
+    font-size: 2rem;
+
+  }
+  .Registration button {
+    width: 106%;
+    height: 70px;
+   font-size: 30px;
+    margin-top: 175px;
+    /* margin-bottom: 70px; */
+    margin-left: 1%;
+  }
+}

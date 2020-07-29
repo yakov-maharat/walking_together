@@ -64,9 +64,9 @@ class Contact extends Component {
             <div className="Contact">
 
                 <div className="whatsapp" >
-                    <h5>ניתן ליצור קשר גם באמצעות</h5><br/>
+                    <h5>ניתן ליצור קשר גם באמצעות</h5><br />
                     <a href="https://api.whatsapp.com/send?phone=972545954402">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt=""/>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png" alt="" />
                     </a>
 
                 </div>
@@ -77,8 +77,8 @@ class Contact extends Component {
                             <Card.Header >יצירת קשר עם יעקב:</Card.Header>
                             <Card.Body>
                                 <Card.Text>
-                                    <FiPhone /> <br/> <br/>  054-9065988 <br/><br/>
-                                    <FiAtSign /><br/> <br/> YakovMaharat@gmail.com<br/>
+                                    <FiPhone /> <br /> <br />  054-9065988 <br /><br />
+                                    <FiAtSign /><br /> <br /> YakovMaharat@gmail.com<br />
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -96,13 +96,13 @@ class Contact extends Component {
 
 
                     <Form className="maatefet_form">
-                        <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet"></link>
+                        {/* <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet"></link> */}
                         <p className="your_details"> השאירו פרטים ונחזור אליכם בהקדם!</p>
 
                         <Form.Group controlId="formBasicFullName" onChange={(event) => {
                             this.setState({ fullName: event.target.value })
                         }}>
-                            <Form.Label>שם מלא:</Form.Label>
+                            <Form.Label >שם מלא:</Form.Label>
                             <Form.Control type="text" placeholder="שם פרטי ושם משפחה" />
                         </Form.Group>
 

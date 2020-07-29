@@ -60,7 +60,7 @@ class VolunteersRegister extends Component {
         }
 
         return (
-            <div>
+            <div className="RegistrationAll">
                 <div className="RegistrationTitel">רישום מתנדבים</div>
 
                 <div className="Registration">
@@ -70,13 +70,13 @@ class VolunteersRegister extends Component {
                             onKeyPress={this.keyPressed}
                             onChange={(event) => {
                                 this.setState({ FirstName: event.target.value })
-                            }} type='name' placeholder='שם פרטי'></input><br />
+                            }} type='name' placeholder='שם פרטי'></input>
 
                         <input
                             onKeyPress={this.keyPressed}
                             onChange={(event) => {
                                 this.setState({ LastName: event.target.value })
-                            }} type='name' placeholder='שם משפחה'></input><br />
+                            }} type='name' placeholder='שם משפחה'></input>
                     </div>
                     <input
                         onKeyPress={this.keyPressed}
