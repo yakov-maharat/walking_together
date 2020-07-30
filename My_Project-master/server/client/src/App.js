@@ -127,7 +127,7 @@ class App extends Component {
               weeklyDiary={this.state.weeklyDiary} setweeklyDiary={this.setweeklyDiary} setweeklyDiaryList={this.setweeklyDiaryList} weeklyDiaryList={this.state.weeklyDiaryList}
               volunteerWeeklyDiary={this.state.volunteerWeeklyDiary} setvolunteerWeeklyDiary={this.setvolunteerWeeklyDiary} volunteerWeeklyDiaryList={this.state.volunteerWeeklyDiaryList} setvolunteerWeeklyDiaryList={this.setvolunteerWeeklyDiaryList} />} />
 
-            <Route exact path="/Volunteers/WeeklyDiarys" render={() => <VolunteersWeeklyDiarys setchildrenList={this.setchildrenList} childrenList={this.state.childrenList} role={this.state.role} setParent={this.setParent} parent={this.state.parent}
+            <Route exact path="/Volunteers/WeeklyDiarys/:parentId" render={(props) => <VolunteersWeeklyDiarys parentId={props.match.params.parentId} setchildrenList={this.setchildrenList} childrenList={this.state.childrenList} role={this.state.role} setParent={this.setParent} parent={this.state.parent}
               weeklyDiary={this.state.weeklyDiary} setweeklyDiary={this.setweeklyDiary} setweeklyDiaryList={this.setweeklyDiaryList} weeklyDiaryList={this.state.weeklyDiaryList}
               volunteerWeeklyDiary={this.state.volunteerWeeklyDiary} setvolunteerWeeklyDiary={this.setvolunteerWeeklyDiary} volunteerWeeklyDiaryList={this.state.volunteerWeeklyDiaryList} setvolunteerWeeklyDiaryList={this.setvolunteerWeeklyDiaryList} />} />
 

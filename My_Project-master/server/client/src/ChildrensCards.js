@@ -41,8 +41,9 @@ class ChildrensCards extends Component {
             });
     }
 
-    function = () => {
+    function = (parent) => {
         this.setState({ redirectToDiary: true })
+        this.setState({parent:parent});
     }
 
     render() {
@@ -54,7 +55,8 @@ class ChildrensCards extends Component {
         }
 
         if (this.state.redirectToDiary) {
-            return <Redirect to="/Volunteers/WeeklyDiarys" />
+            return <Redirect to={{
+                pathname: `/Volunteers/WeeklyDiarys/${this.state.parent}` }}/>
         }
 
         const cardsitems = this.props.childrenList.map((childcard) =>
@@ -68,7 +70,8 @@ class ChildrensCards extends Component {
                         <Card.Subtitle className="mb-2 text-muted">{childcard.email} :מייל</Card.Subtitle> <br />
                         <Card.Text>{childcard.infoOnChild}</Card.Text>
                         <button onClick={() => {
-                            this.function();
+                            this.function(childcard._id);
+                            
                         }}>יומן שבועי </button>
                         {/* <Card.Link href="/Volunteers/WeeklyDiary">יומן שבועי</Card.Link> */}
                     </Card.Body>
