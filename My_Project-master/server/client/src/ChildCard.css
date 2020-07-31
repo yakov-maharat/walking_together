@@ -1,7 +1,7 @@
 .childcard {
   text-align: center;
   width: 20%;
-  margin-left: auto;
+  margin-left: 4rem;
   margin-right: auto;
   margin-top: 5%;
   display: inline-block;
@@ -15,38 +15,48 @@
 .childcard button {
   background-color: coral;
   color: black;
-  margin-bottom: 0rem;
+  margin-top: 4rem;
 }
-.bg-light {
+.childcard .bg-light {
   opacity: 0.77;
   min-height: 24rem;
 }
-.text-muted {
+.childcard .text-muted {
   font-size: large;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bolder;
 }
-.card-text {
+.childcard .card-text {
+  overflow-y: scroll;
+  height: 6rem;
   font-size: x-large;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 @media only screen and (max-width: 1520px) {
   .childcard {
-    height: 2400px;
+    /* height: 2400px; */
     margin-right: 6rem;
+    
   }
-  .bg-light {
+  .childcard .bg-light {
     opacity: 0.77;
     width: 24rem;
-    margin-top: 15%;
-    font-size: 4rem;
+    margin-top: 35%;
+    height: 40rem;
+   
+  
   }
-  .card-body {
+  .childcard .card-body {
     width: 25rem;
+  }
+  
+  .childcard .card-text {
+    overflow-y: scroll;
+    height: 10rem; 
   }
   .childcard button {
     font-size: 2rem;
-    margin-top: 30%;
+    margin-top: 40%;
     margin-bottom: 70%;
   }
 }

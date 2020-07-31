@@ -39,14 +39,14 @@
 }
 
 .card {
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
 .your_details {
   font-family: "Amatic SC", cursive;
-  font-size: 160%;
-  text-align: center;
-  margin-left: 44%;
+  font-size: 2rem;
+  direction: rtl;
+
 }
 
 .buttonSend {
